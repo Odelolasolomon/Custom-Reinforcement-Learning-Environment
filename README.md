@@ -1,7 +1,7 @@
 # Custom Reinforcement Learning Environment
 
 **Author:** Odelola Solomon Oluwatobiloba  
-**Date:** \today
+
 
 ## Introduction
 This project involves the creation of a custom reinforcement learning environment leveraging Object-Oriented Programming (OOP), Gym, and NumPy. The environment is designed to provide a unique and challenging platform for training reinforcement learning agents. 
