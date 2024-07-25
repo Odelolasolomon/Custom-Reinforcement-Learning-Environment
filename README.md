@@ -1,3 +1,6 @@
+\documentclass{article}
+\usepackage{hyperref}
+
 \title{Custom Reinforcement Learning Environment}
 \author{Odelola Solomon Oluwatobiloba}
 \date{\today}
@@ -7,7 +10,7 @@
 \maketitle
 
 \section*{Introduction}
-This project involves the creation of a custom reinforcement learning environment leveraging Object-Oriented Programming (OOP), Gym, and NumPy, etc. The environment is designed to provide a unique and challenging platform for training reinforcement learning agents. The frontend interface is built using HTML and Bootstrap to enhance user interaction.
+This project involves the creation of a custom reinforcement learning environment leveraging Object-Oriented Programming (OOP), Gym, and NumPy. The environment is designed to provide a unique and challenging platform for training reinforcement learning agents. The frontend interface is built using HTML and Bootstrap to enhance user interaction.
 
 \section*{Features}
 \begin{itemize}
@@ -48,9 +51,6 @@ model = PPO('MlpPolicy', env, verbose=1)
 model.learn(total_timesteps=10000)
 \end{verbatim}
 
-
-
-
 \section*{Dependencies}
 \begin{itemize}
     \item Python 3.x
@@ -64,4 +64,7 @@ model.learn(total_timesteps=10000)
 \section*{Contributing}
 Contributions are welcome! Please fork the repository and submit a pull request.
 
+\section*{License}
+This project is licensed under the MIT License. See the \texttt{LICENSE} file for details.
 
+\end{document}
